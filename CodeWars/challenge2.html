@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adjacent Duplicates Remover</title>
+</head>
+<body>
+    <h1>Remove Adjacent Duplicates</h1>
+    <form id="inputForm">
+        <label for="inputString">Enter a string:</label>
+        <input type="text" id="inputString" name="inputString" required>
+        <button type="submit">Remove Duplicates</button>
+    </form>
+    <h2>Result:</h2>
+    <div id="result"></div>
+
+    <script src="index2.js"></script>
+
+
+    <p>
+     Remove all adjacent duplicate characters from a string, as soon as you encounter them walking left to right, and ensuring that at the end NO two adjacent characters remain.
+        <br><br>
+Examples<br>
+dedup('abc') -> 'abc'<br>
+dedup('abbc') -> 'ac'<br>
+dedup('abbbc') -> 'ac'<br>
+dedup('abbcccbad') -> 'abad'<br>
+dedup('abccbbad') -> 'abbbad' -> 'aad' -> 'd'<br>
+    </p>
+</body>
+</html>
